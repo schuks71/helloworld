@@ -43,7 +43,7 @@ jobs:
 
  
     - uses: mr-smithers-excellent/docker-build-push@v5
-      name: Build & push Docker image
+      name: Build push Docker image
       with:
         image: muritala/newpipeline
         registry: docker.io
