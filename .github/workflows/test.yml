@@ -45,7 +45,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v5
       name: Build & push Docker image
       with:
-        image: muritala/pipeline
+        image: muritala/newpipeline
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
